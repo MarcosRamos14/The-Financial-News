@@ -3,15 +3,47 @@ buildscript {
     ext.appcompat_version = "1.6.1"
     ext.constraintlayout_version = "2.1.4"
     ext.corektx_version = "1.10.1"
-    ext.espressocore_version = "3.5.1"
+    ext.coroutines_version = "1.6.4"
+    ext.detekt_version = '1.22.0'
+    ext.design_version = "22.2.1"
+    ext.espresso_version = "3.5.1"
     ext.extjunit_version = "1.1.5"
+    ext.firebasebom_version = "31.2.3"
+    ext.fragment_version = "1.5.3"
+    ext.glide_version = "4.12.0"
+    ext.googleservice_version = "4.3.15"
+    ext.gradle_version = "7.4.0"
+    ext.hilt_version = "2.44"
     ext.junit_version = "4.13.2"
-    ext.material_version = "1.9.0"
+    ext.kotlin_version = "1.7.10"
+    ext.legacy_version = "1.0.0"
+    ext.lifecycle_version = "2.5.1"
+    ext.material_version = "1.5.0"
+    ext.mockwebserver_version = "4.10.0"
+    ext.nav_version = "2.5.3"
+    ext.orchestrator_version = "1.4.1"
+    ext.paging_version = "3.1.1"
+    ext.room_version = "2.4.3"
+    ext.shimmer_version = "0.5.0"
+    ext.testrunner_version = "1.4.0"
 
     repositories {
         google()
         mavenCentral()
     }
+
+    dependencies {
+        classpath "com.google.gms:google-services:$googleservice_version"
+        classpath "com.android.tools.build:gradle:$gradle_version"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath "com.google.dagger:hilt-android-gradle-plugin:$hilt_version"
+        classpath "androidx.navigation:navigation-safe-args-gradle-plugin:$nav_version"
+        classpath "com.android.support:design:$design_version"
+    }
+}
+
+plugins {
+    id("io.gitlab.arturbosch.detekt").version("$detekt_version")
 }
 
 plugins {
