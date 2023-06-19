@@ -4,11 +4,12 @@ buildscript {
     ext.constraintlayout_version = "2.1.4"
     ext.corektx_version = "1.10.1"
     ext.coroutines_version = "1.6.4"
+    ext.crashlytics_version = "2.9.5"
     ext.detekt_version = '1.22.0'
     ext.design_version = "22.2.1"
     ext.espresso_version = "3.5.1"
     ext.extjunit_version = "1.1.5"
-    ext.firebasebom_version = "31.2.3"
+    ext.firebasebom_version = "31.1.1"
     ext.fragment_version = "1.5.3"
     ext.glide_version = "4.12.0"
     ext.googleservice_version = "4.3.15"
@@ -35,6 +36,7 @@ buildscript {
 
     dependencies {
         classpath "com.google.gms:google-services:$googleservice_version"
+        classpath "com.google.firebase:firebase-crashlytics-gradle:$crashlytics_version"
         classpath "com.android.tools.build:gradle:$gradle_version"
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
         classpath "com.google.dagger:hilt-android-gradle-plugin:$hilt_version"
