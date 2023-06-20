@@ -68,6 +68,8 @@ android {
 
 dependencies {
 
+    implementation project (':core')
+
     // AndroidX
     implementation "androidx.core:core-ktx:$corektx_version"
     implementation "androidx.appcompat:appcompat:$appcompat_version"
@@ -88,9 +90,6 @@ dependencies {
     // Glide
     implementation "com.github.bumptech.glide:glide:$glide_version"
     kapt "com.github.bumptech.glide:compiler:$glide_version"
-
-    // Gson
-    api "com.google.code.gson:gson:$gson_version"
 
     // Javax Inject
     implementation "javax.inject:javax.inject:1"
@@ -118,7 +117,7 @@ dependencies {
     implementation "androidx.lifecycle:lifecycle-runtime-ktx:$lifecycle_version"
 
     // Unit Test
-    testImplementation "junit:junit:$junit_version"
+    testImplementation project (":testing")
     testImplementation "androidx.room:room-testing:$room_version"
 
     // Instrumentation Test
