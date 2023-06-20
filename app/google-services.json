@@ -1,0 +1,97 @@
+{
+  "project_info": {
+    "project_number": "115177504062",
+    "project_id": "the-financial-news",
+    "storage_bucket": "the-financial-news.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:115177504062:android:d1e1f21ec7af5380f4406f",
+        "android_client_info": {
+          "package_name": "com.marcos.thefinancialnews"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "115177504062-f1616ar86r23994e40k203s6bedip6vi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1Z4FeQm7fn8yRP6k72jp-6f2dEAZcaN4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "115177504062-f1616ar86r23994e40k203s6bedip6vi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:115177504062:android:87fff89b3f3f6c6ef4406f",
+        "android_client_info": {
+          "package_name": "com.marcos.thefinancialnews.debug"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "115177504062-f1616ar86r23994e40k203s6bedip6vi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1Z4FeQm7fn8yRP6k72jp-6f2dEAZcaN4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "115177504062-f1616ar86r23994e40k203s6bedip6vi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:115177504062:android:7333078b3fdb8f1cf4406f",
+        "android_client_info": {
+          "package_name": "com.marcos.thefinancialnews.staging"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "115177504062-f1616ar86r23994e40k203s6bedip6vi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1Z4FeQm7fn8yRP6k72jp-6f2dEAZcaN4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "115177504062-f1616ar86r23994e40k203s6bedip6vi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
